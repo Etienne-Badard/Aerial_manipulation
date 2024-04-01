@@ -1,5 +1,6 @@
 # Aerial_manipulation
-Ongoing Mater research using drone with two onboard camera (t265 &amp; d435)
+This research project focuses on autonomous drone control for detecting and grabbing a target object with the assistance of a hand on the drone, utilizing depth data from a RealSense D435 camera and tracking capabilities of a T265 camera. The project is designed to run on a Jetson Nano using ROS Melodic.
+
 
 ## Dependencies
 
@@ -50,7 +51,3 @@ Please make sure to install these packages before running the project.
     rosrun scripts streming_depth_no_image.py
     rosrun scripts object_pick
     ```
-
-## License
-
-[Include license information here]
