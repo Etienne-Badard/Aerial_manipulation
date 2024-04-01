@@ -19,8 +19,8 @@
 
 4. Run the custom scripts:
     ```bash
-    rosrun scripts streaming_depth.py
-    rosrun scripts object_pick
+    rosrun t265_and_d435 streaming_depth.py
+    rosrun t265_and_d435 object_pick
     ```
 
 ## ColorPicker file
