@@ -17,12 +17,15 @@
     roslaunch vision_to_mavros t265_tf_to_mavros.launch
     ```
 
-4. Run the custom scripts:
+4. Object detection based on color and estiamation of the targeted object position:
     ```bash
     rosrun t265_and_d435 streaming_depth.py
+    ```
+5. Autonomous drone control depending on targeted object position 
+    ```bash
     rosrun t265_and_d435 object_pick
     ```
-
+    
 ## ColorPicker file
 
 This file is designed to determined the precise HSV value of a targeted object. These values can then be used in the custom scripts to specify the color of the object we want to grasp.
