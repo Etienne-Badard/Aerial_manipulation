@@ -13,4 +13,4 @@ roslaunch mavros px4.launch fcu_url:="your_fcu_url" gcs_url:=udp:"your_gcs_url"
 rosrun topic_tools relay /vrpn_client_node/body1/pose /mavros/vision_pose/pose
 
 # Run Custom Script
-rosrun scripts x_y_movement
+rosrun Optitrack x_y_movement
