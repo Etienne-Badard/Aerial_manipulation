@@ -1,5 +1,5 @@
 # Aerial_manipulation
-This research project focuses on autonomous drone control for detecting and grabbing a target object with the assistance of a hand on the drone, utilizing depth data from a RealSense D435 camera and tracking capabilities of a T265 camera. The project is designed to run on a Jetson Nano using ROS Melodic and a px4 flight controller.
+This research project focuses on autonomous drone control for detecting and grabbing a target object based on its color with the assistance of a robotic hand mounted on the drone, utilizing depth data from a RealSense D435 camera and tracking capabilities of a T265 camera. The project is designed to run on a Jetson Nano using ROS Melodic and a px4 flight controller.
 
 The control of the drone can be realized by two different ways:
 - Using Optitrack, a motion planning system. This system doesn't include any object detection algorithm.
